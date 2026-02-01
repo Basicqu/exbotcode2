@@ -22,8 +22,8 @@ from telegram.ext import (
 )
 
 # ----------------- Настройки -----------------
-BOT_TOKEN = "8127030068:AAHt_4mOEuXELizkcJY6OJW2n8_I-NHAUHw"
-ADMIN_CODE = "11092001"
+BOT_TOKEN = ""
+ADMIN_CODE = ""
 DB_FILENAME = "bookings.db"
 ENABLE_NAME = True
 MAX_DAYS_AHEAD = 30
@@ -765,3 +765,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
