@@ -22,7 +22,7 @@ from telegram.ext import (
 )
 
 # ----------------- Настройки -----------------
-BOT_TOKEN = "8318506171:AAHICy9FQoAK2rH4YTRjt_N0fYhT5-aTK3s" 
+BOT_TOKEN = "" 
 ADMIN_CODE = "9435"
 DB_FILENAME = "bookings.db"
 ENABLE_NAME = True
@@ -765,6 +765,7 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
 
 
 
